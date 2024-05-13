@@ -85,6 +85,9 @@
     <PostBuildEvent>
       <Command />
     </PostBuildEvent>
+    <Link>
+      <OutputFile>../$(ProjectName)x86.dll</OutputFile>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug with inlines|Win32'">
     <PreBuildEvent>
@@ -92,6 +95,7 @@
     </PreBuildEvent>
     <Link>
       <IgnoreSpecificDefaultLibraries>MSVCRTD;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <OutputFile>../$(ProjectName)x86.dll</OutputFile>
     </Link>
     <PostBuildEvent>
       <Command />
@@ -107,6 +111,9 @@
     <PostBuildEvent>
       <Command />
     </PostBuildEvent>
+    <Link>
+      <OutputFile>../$(ProjectName)x86.dll</OutputFile>
+    </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="game\Game.def" />
