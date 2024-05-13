@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug with edit and continue|Win32">
+      <Configuration>Debug with edit and continue</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug with inlines|Win32">
+      <Configuration>Debug with inlines</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectName>libGameDecl</ProjectName>
+    <ProjectGuid>{A2D0B8A0-9F12-4D5D-8D60-E99D3EBEF961}</ProjectGuid>
+    <RootNamespace>libGameDecl</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug with edit and continue|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug with inlines|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug with edit and continue|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="_LibBuildPaths.props" />
+    <Import Project="_IgnoreDeprecation.props" />
+    <Import Project="_Windows.props" />
+    <Import Project="_Lib.props" />
+    <Import Project="_Debug.props" />
+    <Import Project="_SDK.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="_LibBuildPaths.props" />
+    <Import Project="_IgnoreDeprecation.props" />
+    <Import Project="_Windows.props" />
+    <Import Project="_Lib.props" />
+    <Import Project="_Release.props" />
+    <Import Project="_SDK.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug with inlines|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="_SDK.props" />
+    <Import Project="_Lib.props" />
+    <Import Project="_WithInlines.props" />
+    <Import Project="_Windows.props" />
+    <Import Project="_Debug.props" />
+    <Import Project="_LibBuildPaths.props" />
+    <Import Project="_IgnoreDeprecation.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.34714.143</_ProjectFileVersion>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug with edit and continue|Win32'">
+    <ClCompile>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="decllib\DeclType.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug with edit and continue|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclAmmoType.cpp" />
+    <ClCompile Include="game\decls\DeclAOR.cpp" />
+    <ClCompile Include="game\decls\DeclCampaign.cpp" />
+    <ClCompile Include="game\decls\DeclDamage.cpp" />
+    <ClCompile Include="game\decls\DeclDamageFilter.cpp" />
+    <ClCompile Include="game\decls\DeclDeployableObject.cpp" />
+    <ClCompile Include="game\decls\DeclDeployableZone.cpp" />
+    <ClCompile Include="game\decls\DeclDeployMask.cpp" />
+    <ClCompile Include="game\decls\DeclGUI.cpp" />
+    <ClCompile Include="game\decls\DeclGUITheme.cpp" />
+    <ClCompile Include="game\decls\DeclHeightMap.cpp" />
+    <ClCompile Include="game\decls\DeclInvItem.cpp" />
+    <ClCompile Include="game\decls\DeclInvItemType.cpp" />
+    <ClCompile Include="game\decls\DeclInvSlot.cpp" />
+    <ClCompile Include="game\decls\DeclItemPackage.cpp" />
+    <ClCompile Include="game\decls\DeclKeyBinding.cpp" />
+    <ClCompile Include="game\decls\DeclMapInfo.cpp" />
+    <ClCompile Include="game\decls\DeclPlayerClass.cpp" />
+    <ClCompile Include="game\decls\DeclPlayerTask.cpp" />
+    <ClCompile Include="game\decls\DeclProficiencyItem.cpp" />
+    <ClCompile Include="game\decls\DeclProficiencyType.cpp" />
+    <ClCompile Include="game\decls\DeclQuickChat.cpp" />
+    <ClCompile Include="game\decls\DeclRadialMenu.cpp" />
+    <ClCompile Include="game\decls\DeclRank.cpp" />
+    <ClCompile Include="game\decls\DeclRating.cpp" />
+    <ClCompile Include="game\decls\DeclRequirement.cpp" />
+    <ClCompile Include="game\decls\DeclStringMap.cpp" />
+    <ClCompile Include="game\decls\DeclTargetInfo.cpp" />
+    <ClCompile Include="game\decls\DeclToolTip.cpp" />
+    <ClCompile Include="game\decls\DeclVehiclePath.cpp" />
+    <ClCompile Include="game\decls\declVehicleScript.cpp" />
+    <ClCompile Include="game\decls\DeployMask.cpp" />
+    <ClCompile Include="game\decls\GameDeclIdentifiers.cpp" />
+    <ClCompile Include="game\decls\GameDeclInfo.cpp" />
+    <ClCompile Include="game\decls\HeightMap.cpp" />
+    <ClCompile Include="game\decls\precompiled.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug with edit and continue|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug with inlines|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="decllib\declType.h" />
+    <ClInclude Include="game\decls\DeclAmmoType.h" />
+    <ClInclude Include="game\decls\DeclAOR.h" />
+    <ClInclude Include="game\decls\DeclCampaign.h" />
+    <ClInclude Include="game\decls\DeclDamage.h" />
+    <ClInclude Include="game\decls\DeclDamageFilter.h" />
+    <ClInclude Include="game\decls\DeclDeployableObject.h" />
+    <ClInclude Include="game\decls\DeclDeployableZone.h" />
+    <ClInclude Include="game\decls\DeclDeployMask.h" />
+    <ClInclude Include="game\decls\DeclGUI.h" />
+    <ClInclude Include="game\decls\DeclGUITheme.h" />
+    <ClInclude Include="game\decls\DeclHeightMap.h" />
+    <ClInclude Include="game\decls\DeclInvItem.h" />
+    <ClInclude Include="game\decls\DeclInvItemType.h" />
+    <ClInclude Include="game\decls\DeclInvSlot.h" />
+    <ClInclude Include="game\decls\DeclItemPackage.h" />
+    <ClInclude Include="game\decls\DeclKeyBinding.h" />
+    <ClInclude Include="game\decls\DeclMapInfo.h" />
+    <ClInclude Include="game\decls\DeclPlayerClass.h" />
+    <ClInclude Include="game\decls\DeclPlayerTask.h" />
+    <ClInclude Include="game\decls\DeclProficiencyItem.h" />
+    <ClInclude Include="game\decls\DeclProficiencyType.h" />
+    <ClInclude Include="game\decls\DeclQuickChat.h" />
+    <ClInclude Include="game\decls\DeclRadialMenu.h" />
+    <ClInclude Include="game\decls\DeclRank.h" />
+    <ClInclude Include="game\decls\DeclRating.h" />
+    <ClInclude Include="game\decls\DeclRequirement.h" />
+    <ClInclude Include="game\decls\DeclStringMap.h" />
+    <ClInclude Include="game\decls\DeclTargetInfo.h" />
+    <ClInclude Include="game\decls\DeclToolTip.h" />
+    <ClInclude Include="game\decls\DeclVehiclePath.h" />
+    <ClInclude Include="game\decls\declVehicleScript.h" />
+    <ClInclude Include="game\decls\DeployMask.h" />
+    <ClInclude Include="game\decls\GameDeclIdentifiers.h" />
+    <ClInclude Include="game\decls\GameDeclInfo.h" />
+    <ClInclude Include="game\decls\HeightMap.h" />
+    <ClInclude Include="game\decls\precompiled.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="idlib_sdk.vcxproj">
+      <Project>{f9a72ed4-e4c8-4205-9432-fb241e56c14d}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

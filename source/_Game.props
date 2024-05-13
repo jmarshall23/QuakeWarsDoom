@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.34714.143</_ProjectFileVersion>
+    <_PropertySheetDisplayName>ETQW Game DLL</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <PreBuildEvent>
+      <Message>Generating build version...</Message>
+      <Command>makeversion.py</Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <PreprocessorDefinitions>GAME_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile />
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <ModuleDefinitionFile>.\game\Game.def</ModuleDefinitionFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>4194304</StackReserveSize>
+      <StackCommitSize>4194304</StackCommitSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

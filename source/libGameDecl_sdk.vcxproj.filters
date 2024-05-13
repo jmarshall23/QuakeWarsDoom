@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game\decls\DeclAmmoType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclAOR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclCampaign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclDamage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclDamageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclDeployableObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclDeployableZone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclDeployMask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclGUITheme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclHeightMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclInvItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclInvItemType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclInvSlot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclItemPackage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclKeyBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclMapInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclPlayerClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclPlayerTask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclProficiencyItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclProficiencyType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclQuickChat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclRadialMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclRank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclRating.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclRequirement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclStringMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclTargetInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclToolTip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="decllib\DeclType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeclVehiclePath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\declVehicleScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\DeployMask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\GameDeclIdentifiers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\GameDeclInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\HeightMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\decls\precompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game\decls\DeclAmmoType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclAOR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclCampaign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclDamage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclDamageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclDeployableObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclDeployableZone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclDeployMask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclGUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclGUITheme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclHeightMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclInvItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclInvItemType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclInvSlot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclItemPackage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclKeyBinding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclMapInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclPlayerClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclPlayerTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclProficiencyItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclProficiencyType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclQuickChat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclRadialMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclRank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclRating.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclRequirement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclStringMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclTargetInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclToolTip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="decllib\declType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeclVehiclePath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\declVehicleScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\DeployMask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\GameDeclIdentifiers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\GameDeclInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\HeightMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\decls\precompiled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

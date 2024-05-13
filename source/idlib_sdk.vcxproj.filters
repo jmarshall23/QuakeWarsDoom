@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="BV">
+      <UniqueIdentifier>{fbed139b-afce-41ad-ac5b-b523adafe958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{9bcedbc6-22e6-4b5d-b55b-54487ac9a52c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{4888efbb-99f1-4b4f-92b7-ff8109668843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hashing">
+      <UniqueIdentifier>{9ffb0f1d-6144-4675-9134-b7ea5f8d09fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{edbf0fbf-cf16-48bb-848a-345f6424b7da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{8d0ab900-0e23-4047-bc48-66d59fd951ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{97b76121-68e3-40b8-bc9c-7a449089a9ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sys">
+      <UniqueIdentifier>{315457cc-ee51-47da-9ab9-248ae7a05e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sys\Threading">
+      <UniqueIdentifier>{32df682b-0cf4-4541-8332-3c653c3d9658}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="idlib\bv\Bounds.cpp">
+      <Filter>BV</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\bv\Bounds2D.cpp">
+      <Filter>BV</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\bv\BoundsShort.cpp">
+      <Filter>BV</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\bv\Box.cpp">
+      <Filter>BV</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\bv\Frustum.cpp">
+      <Filter>BV</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\bv\Sphere.cpp">
+      <Filter>BV</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\containers\HashIndex.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\geometry\JointTransform.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\geometry\Surface.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\geometry\Surface_Patch.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\geometry\Surface_Polytope.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\geometry\Surface_SweptSpline.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\geometry\Surface_Traceable.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\geometry\TraceModel.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\geometry\TraceSurface.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\geometry\Winding.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\geometry\Winding2D.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\hashing\CRC16.cpp">
+      <Filter>Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\hashing\CRC32.cpp">
+      <Filter>Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\hashing\CRC8.cpp">
+      <Filter>Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\hashing\Honeyman.cpp">
+      <Filter>Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\hashing\MD4.cpp">
+      <Filter>Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\hashing\MD5.cpp">
+      <Filter>Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Angles.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Complex.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Lcp.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Mat3x4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Math.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Matrix.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Ode.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Perlin.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Plane.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Pluecker.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Polynomial.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Quat.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Radians.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Random.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Rotation.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Simd.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Simd_3DNow.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Simd_Generic.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Simd_MMX.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Simd_SSE.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Simd_SSE2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Simd_SSE3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Simd_Xenon.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\math\Vector.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\text\Base64.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\text\CmdArgs.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\text\Lexer.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\text\LexerBinary.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\text\Parser.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\text\Str.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\text\StrBuilder.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\text\StrSimple.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\text\Token.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\text\UTF8.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\text\WLexer.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\text\WStr.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\text\WToken.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\threading\Lock.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\threading\Signal.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\threading\Thread.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\sys\threading\SysLock_win.cpp">
+      <Filter>Sys\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\sys\threading\SysSignal_win.cpp">
+      <Filter>Sys\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\sys\threading\SysThread_win.cpp">
+      <Filter>Sys\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="idlib\BitMsg.cpp" />
+    <ClCompile Include="idlib\Callable.cpp" />
+    <ClCompile Include="idlib\Color.cpp" />
+    <ClCompile Include="idlib\Dict.cpp" />
+    <ClCompile Include="idlib\FunctionSignals.cpp" />
+    <ClCompile Include="idlib\Heap.cpp" />
+    <ClCompile Include="idlib\ImagePacker.cpp" />
+    <ClCompile Include="idlib\LangDict.cpp" />
+    <ClCompile Include="idlib\Lib.cpp" />
+    <ClCompile Include="idlib\MapFile.cpp" />
+    <ClCompile Include="idlib\PoolAllocator.cpp" />
+    <ClCompile Include="idlib\Properties.cpp" />
+    <ClCompile Include="idlib\TextUtilities.cpp" />
+    <ClCompile Include="idlib\Timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="idlib\bv\Bounds.h">
+      <Filter>BV</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\bv\Bounds2D.h">
+      <Filter>BV</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\bv\BoundsShort.h">
+      <Filter>BV</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\bv\Box.h">
+      <Filter>BV</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\bv\Frustum.h">
+      <Filter>BV</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\bv\Sphere.h">
+      <Filter>BV</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\BinSearch.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\BitField.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\BTree.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\Deque.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\Grid.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\Handles.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\HashIndex.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\HashIndexImpl.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\HashMap.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\HashMapGeneric.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\HashTable.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\Hierarchy.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\LinkedList.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\LinkList.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\List.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\ObjArray.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\Pair.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\PlaneSet.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\PtrArray.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\QuadTree.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\Queue.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\Stack.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\StaticList.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\StrList.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\StrPool.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\VectorSet.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\containers\VectorWeld.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\geometry\DrawVert.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\geometry\JointTransform.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\geometry\Surface.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\geometry\Surface_Patch.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\geometry\Surface_Polytope.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\geometry\Surface_SweptSpline.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\geometry\Surface_Traceable.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\geometry\TraceModel.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\geometry\TraceSurface.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\geometry\Winding.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\geometry\Winding2D.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\hashing\CRC16.h">
+      <Filter>Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\hashing\CRC32.h">
+      <Filter>Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\hashing\CRC8.h">
+      <Filter>Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\hashing\Honeyman.h">
+      <Filter>Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\hashing\MD4.h">
+      <Filter>Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\hashing\MD5.h">
+      <Filter>Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Angles.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\BasicTypes.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Complex.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Curve.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Extrapolate.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\FloatErrors.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Interpolate.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Lcp.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Mat3x4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Ode.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Perlin.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Plane.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Pluecker.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Polynomial.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Quat.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Radians.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Random.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Rotation.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Simd.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Simd_3DNow.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Simd_Generic.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Simd_InstructionMacros.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Simd_MMX.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Simd_SSE.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Simd_SSE2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Simd_SSE3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Simd_TestData.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\math\Vector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\text\Base64.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\text\CmdArgs.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\text\Lexer.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\text\LexerBinary.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\text\Parser.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\text\Str.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\text\StrBuilder.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\text\StrSimple.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\text\Token.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\text\UTF8.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\text\WLexer.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\text\WStr.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\text\WToken.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\threading\Atomic.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\threading\Lock.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\threading\Signal.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\threading\Thread.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\threading\ThreadingDefs.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\threading\ThreadProcess.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\sys\threading\SysLock.h">
+      <Filter>Sys\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\sys\threading\SysSignal.h">
+      <Filter>Sys\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\sys\threading\SysThread.h">
+      <Filter>Sys\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="idlib\AutoPtr.h" />
+    <ClInclude Include="idlib\AutoTimer.h" />
+    <ClInclude Include="idlib\BitMsg.h" />
+    <ClInclude Include="idlib\Callable.h" />
+    <ClInclude Include="idlib\Callable_WIP.h" />
+    <ClInclude Include="idlib\Color.h" />
+    <ClInclude Include="idlib\Dict.h" />
+    <ClInclude Include="idlib\Factory.h" />
+    <ClInclude Include="idlib\FunctionSignals.h" />
+    <ClInclude Include="idlib\Handle.h" />
+    <ClInclude Include="idlib\Heap.h" />
+    <ClInclude Include="idlib\ImagePacker.h" />
+    <ClInclude Include="idlib\LangDict.h" />
+    <ClInclude Include="idlib\Lib.h" />
+    <ClInclude Include="idlib\LibImpl.h" />
+    <ClInclude Include="idlib\LibOS.h" />
+    <ClInclude Include="idlib\MapFile.h" />
+    <ClInclude Include="idlib\PoolAllocator.h" />
+    <ClInclude Include="idlib\precompiled.h" />
+    <ClInclude Include="idlib\Properties.h" />
+    <ClInclude Include="idlib\PropertiesImpl.h" />
+    <ClInclude Include="idlib\PropertyTraits.h" />
+    <ClInclude Include="idlib\PtrPolicies.h" />
+    <ClInclude Include="idlib\Singleton.h" />
+    <ClInclude Include="idlib\SmartPtr.h" />
+    <ClInclude Include="idlib\Sort.h" />
+    <ClInclude Include="idlib\TextUtilities.h" />
+    <ClInclude Include="idlib\Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="idlib\math\Simd_Xenon.h">
+      <Filter>Math</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
